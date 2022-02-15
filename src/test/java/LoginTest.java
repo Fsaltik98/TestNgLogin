@@ -19,7 +19,7 @@ public class LoginTest {
 
     @AfterMethod
     public void tearDown() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         driver.quit();
     }
 
