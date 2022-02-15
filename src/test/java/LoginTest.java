@@ -55,7 +55,6 @@ public class LoginTest {
         Assert.assertEquals(error, expectedError);
     }
 
-
     @Ignore
     @Test
     public void LoginWithEmptyInputs() throws InterruptedException {
